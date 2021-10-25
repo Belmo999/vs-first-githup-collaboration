@@ -32,7 +32,7 @@ namespace vs_first_githup_collaboration
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<h2>Hello World!</h2>");
+                    await context.Response.WriteAsync("<h2> HELLO WORLD IN CAPITAL </h2>");
                     await context.Response.WriteAsync("Hello World!");
                 });
             });
